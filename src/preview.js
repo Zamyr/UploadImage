@@ -138,6 +138,7 @@ const Previews = (props) => {
                           aspect={4 / 3}
                           onCropChange={setCrop}
                           onCropComplete={onCropComplete}
+                          onCropAreaChange={e => console.log('onCropAreaChange ', e)}
                           onZoomChange={setZoom}
                         />
                         ) : null}
